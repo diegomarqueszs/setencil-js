@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components</title>
+    <script src="tooltip.js"></script>
+    <script src="confirm-link.js"></script>
+    <style>
+        *{
+            box-sizing: boder-box;
+        }
+        html{
+            --color-primary: #82beff;
+            font-family: sans-serif;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p><uc-tooltip class ='important'>
+        <span class="highlight">Web Components</span>
+    </uc-tooltip></p>
+    <uc-tooltip text = "Text">Here we go!</uc-tooltip>
+    <p><uc-tooltip></uc-tooltip></p>
+    <a is="uc-confirm-link" href="http://google.com">Google</a>
+</body>
+</html>

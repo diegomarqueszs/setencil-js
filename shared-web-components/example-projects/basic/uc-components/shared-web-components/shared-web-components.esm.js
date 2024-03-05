@@ -1,0 +1,2 @@
+import{p as t,b as o}from"./p-b7e8b31d.js";export{s as setNonce}from"./p-b7e8b31d.js";import{g as e}from"./p-e1255160.js";const r=()=>{const s=import.meta.url;const o={};if(s!==""){o.resourcesUrl=new URL(".",s).href}return t(o)};r().then((async s=>{await e();return o([["p-dfa03775",[[1,"my-component",{first:[1],middle:[1],last:[1]}]]]],s)}));
+//# sourceMappingURL=shared-web-components.esm.js.map
